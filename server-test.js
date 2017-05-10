@@ -6,8 +6,8 @@ suite('server test',function(done){
         done;
     })
 
-    test('isAnagram: incorrect o/p generated, failed',function(done){
-        expect(isAnagram("cat","act").to.equal(false));
+    test('isAnagram: correct o/p generated',function(done){
+        expect(isAnagram("cat","mat").to.equal(false));
         done;
     })
 })
