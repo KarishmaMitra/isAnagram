@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 				options : {
 					ui : 'tdd',
 					reporter : 'spec',
-					reporterOptions: {'output' : 'mocha-tests-output.xml'},
+					reporterOptions: {'output' : 'mocha-test-output.xml'},
 					timeout: 20000
 				},
 				src : [ './server-test.js' ]
